@@ -1,0 +1,41 @@
+{
+  "name": "memory",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.5.4",
+    "lodash.shuffle": "^4.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-scripts": "^2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-enzyme": "^1.0.0-beta.0",
+    "chai-jest-diff": "^1.0.2",
+    "chai-jest-snapshot": "^2.0.0",
+    "dirty-chai": "^2.0.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "enzyme-to-json": "^3.3.4",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.14.3",
+    "react-test-renderer": "^16.6.3",
+    "sinon": "^7.1.1",
+    "sinon-chai": "^3.2.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
